@@ -1,0 +1,30 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction:column;
+
+}
+
+.Border {
+  width: 30%;
+  height: 30%;
+  border: 7px black solid;
+  border-radius: 5px;
+  display: flex;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.Box{
+  background-color: darkgreen;
+  border: red 4px solid;
+  height: 100px;
+  width: 100px;
+}
